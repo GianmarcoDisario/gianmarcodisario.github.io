@@ -12,7 +12,7 @@ pagination:
   sort_field: date
   sort_reverse: true
   trail:
-    before: 1 # The number of links before the current page
+    before: 2 # The number of links before the current page
     after: 3 # The number of links after the current page
 ---
 
@@ -116,9 +116,9 @@ pagination:
     {% else %}
       {% assign read_time = post.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
     {% endif %}
-    {% assign year = post.date | date: "%Y" %}
-    {% assign tags = post.tags | join: "" %}
-    {% assign categories = post.categories | join: "" %}
+    <!-- {% assign year = post.date | date: "%Y" %} -->
+    <!-- {% assign tags = post.tags | join: "" %} -->
+    <!-- {% assign categories = post.categories | join: "" %} -->
 
     <li>
 
