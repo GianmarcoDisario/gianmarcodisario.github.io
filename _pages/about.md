@@ -9,9 +9,7 @@ profile:
   image: prof_color.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Latitude Amsterdam</p>
-    <p>Jacob Bontiusplaats 9</p>
-    <p>1018LL Amsterdam</p>
+    <p>Based in Amsterdam.</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -27,6 +25,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I started this website to commit myself to writing more about the many topics that interest me. The goal is to at least write one post every two weeks from the moment I turn 33 (5 Aug. 2025). 
+I started this website to commit myself to writing more about the many topics that interest me. The goal is to at least write one post every two weeks from the moment I turned 33. 
 
 The site was mainly started as a place to gather my thoughts, not necessarily to be read publicly, but thanks for visiting anyway and feel free to dive right in!
