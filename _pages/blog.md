@@ -24,8 +24,8 @@ pagination:
 {% if blog_name_size > 0 or blog_description_size > 0 %}
 
   <div class="header-bar">
-    <h1>{{ site.blog_name }}</h1>
-    <h2>{{ site.blog_description }}</h2>
+    <h2>{{ site.blog_name }}</h2>
+    <h3>{{ site.blog_description }}</h3>
   </div>
   {% endif %}
 
@@ -146,6 +146,7 @@ pagination:
         {% if post.external_source %}
         &nbsp; &middot; &nbsp; {{ post.external_source }}
         {% endif %}
+{% comment %}
       </p>
       <p class="post-tags">
         <a href="{{ year | prepend: '/blog/' | relative_url }}">
@@ -173,6 +174,7 @@ pagination:
               {% endfor %}
           {% endif %}
     </p>
+{% endcomment %}
 
 {% if post.thumbnail %}
 
