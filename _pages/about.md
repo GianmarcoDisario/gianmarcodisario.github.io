@@ -6,7 +6,7 @@ subtitle: Maths, Wine & Other Curiosities.
 
 profile:
   align: right
-  image: prof_color.jpg
+  image: prof_color.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Based in Amsterdam.</p>
